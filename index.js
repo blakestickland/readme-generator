@@ -14,14 +14,14 @@ const askQuestions = () => {
     return  inquirer.prompt([
       {
         type: "input",
-        message: "What is the title of the project?",
-        name: "title"
+        name: "title",
+        message: "What is the title of the project?"
       },
-    //   {
-    //     type: "input",
-    //     name: "description"
-    //     message: "What is the purpose or function of the app?",
-    //   },
+      {
+        type: "input",
+        name: "description",
+        message: "What is the purpose or function of the app?"
+      },
     //   {
     //     type: "input",
     //     name: "installation"
@@ -46,12 +46,12 @@ const askQuestions = () => {
     //   },
     //   {
     //     type: "input",
-    //     name: "github-username"
+    //     name: "github_username"
     //     message: "What is your Github username?",
     //   },
     //   {
     //     type: "input",
-    //     name: "email-address"
+    //     name: "email_address"
     //     message: "What is your email address?",
     //   },
     ]);
@@ -60,6 +60,7 @@ const askQuestions = () => {
 
 // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {}
+// DONE BELOW
 
 // TODO: Create a function to initialize app
 const init = async() => {

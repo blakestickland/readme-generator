@@ -17,8 +17,39 @@ function renderLicenseSection(license) {}
 // `;
 // }
 const generateMarkdown = (answers) => {
-  return `# ${answers.title}
+  return `<!-- Title of the project -->
+  # ${answers.title}
   
+  <!-- Description of the project -->
+  ${answers.description}
+  
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  
+  ## Installation
+  ${answers.installation}
+  
+  ## Usage
+  ${answers.usage}
+  
+  ## License
+  ${answers.license}
+  
+  ## Contributing
+  ${answers.contributing}
+  
+  ## Tests
+  ${answers.usage}
+  
+  ## Questions
+  ${answers.github_username}
+  ${answers.email_address}
+
   
   `;
 }
