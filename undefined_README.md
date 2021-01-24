@@ -1,8 +1,8 @@
 <!-- Title of the project -->
-  # asdf
+  # undefined ![GPLv3](https://img.shields.io/badge/GPLv3-License-brightgreen)
   
   <!-- Description of the project -->
-  To generate a pro looking README dot md file for a dev app.
+  undefined
   
   ## Table of Contents
   * [Installation](#installation)
@@ -19,7 +19,7 @@
   undefined
   
   ## License
-  undefined
+  GPLv3
   
   ## Contributing
   undefined
